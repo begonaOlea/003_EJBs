@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSF/JSFManagedBean.java to edit this template
- */
+
 package com.curso.web;
 
 import com.curso.ejbs.NominasService;
@@ -31,7 +28,7 @@ public class VariosBean {
      * Creates a new instance of VariosBean
      */
     public VariosBean() {
-        //1
+        //1 
     }
     
     @PostConstruct
@@ -45,9 +42,5 @@ public class VariosBean {
     public String getMensaje() {
         return mensaje;
     }
-    
-    
-    
-   
     
 }
